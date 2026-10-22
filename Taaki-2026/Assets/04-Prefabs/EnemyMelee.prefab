@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 841bc4327db458b4a8a31ae33ad66015, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.135
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 841bc4327db458b4a8a31ae33ad66015, type: 3}
       propertyPath: m_LocalPosition.z
@@ -55,6 +55,22 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 841bc4327db458b4a8a31ae33ad66015, type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 841bc4327db458b4a8a31ae33ad66015, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 841bc4327db458b4a8a31ae33ad66015, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 841bc4327db458b4a8a31ae33ad66015, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 841bc4327db458b4a8a31ae33ad66015, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -108,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff00d7b3212103f4c8e899551c3d5dd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChaser
-  movespeed: 2
+  moveSpeed: 2
   detectRange: 15
   attackRange: 1.5
   damage: 1
@@ -128,3 +144,7 @@ MonoBehaviour:
   maxHp: 3
   currentHp: 0
   hpSlider: {fileID: 0}
+  hitEffect: {fileID: 1461139338391942449, guid: de2b9c1bb6f75f24a8e418e4dcbed16e, type: 3}
+  invincibleTime: 0
+  dropPrefab: {fileID: 7993781651753060964, guid: 8abe85bbd3151844b86d6faea0d7346f, type: 3}
+  dropChance: 0.3
