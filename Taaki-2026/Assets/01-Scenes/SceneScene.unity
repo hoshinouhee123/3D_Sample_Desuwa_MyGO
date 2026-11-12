@@ -222,6 +222,10 @@ GameObject:
   - component: {fileID: 1023510008}
   - component: {fileID: 1023510007}
   - component: {fileID: 1023510009}
+  - component: {fileID: 1023510012}
+  - component: {fileID: 1023510011}
+  - component: {fileID: 1023510010}
+  - component: {fileID: 1023510013}
   m_Layer: 0
   m_Name: Tester
   m_TagString: Untagged
@@ -278,6 +282,72 @@ MonoBehaviour:
   level: 1
   attack: 12.5
   isBoss: 1
+--- !u!114 &1023510010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023510006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd317f269549d2a4e9b9f057a95d3635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RewardCalc
+  playSeconds: 3725
+  gold: 1234
+  members: 4
+  kills: 7
+  expPerKill: 35
+  totalDamage: 250
+  hits: 20
+  expRate: 1.5
+--- !u!114 &1023510011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023510006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8aa1552d8da69a46ab5faca6c9e3c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HPPractice
+  currentHP: 7
+  maxHp: 10
+--- !u!114 &1023510012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023510006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0f7271eb9d931468eb54468ba41c56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StatPractice
+  playerName: 
+  level: 0
+  attack: 0
+  isBoss: 0
+--- !u!114 &1023510013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023510006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03cb8d812698c6e41af341bdd0b3b20f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamagePractice
+  attack: 12
+  defence: 5
+  isCritical: 1
+  targetIsBoss: 1
 --- !u!1 &1653827236
 GameObject:
   m_ObjectHideFlags: 0
