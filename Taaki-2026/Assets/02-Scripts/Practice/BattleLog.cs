@@ -36,6 +36,7 @@ public class BattleLog : MonoBehaviour
         
     }
 
+
     [ContextMenu("전투 기록 업그레이드")]
     void ShowBattleLogUpgrade()
     {
@@ -69,6 +70,7 @@ public class BattleLog : MonoBehaviour
 
             criticalTexts += ", ";
         }
+
 
         Debug.Log(criticalTexts);
     }
